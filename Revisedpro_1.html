@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* h1{
+            margin: 5px;
+            padding: 100px;
+            width: 100%;
+            height: auto;
+            background-image: url("image/wallpaper.jpg");
+            background-repeat: no-repeat;
+        }*/
+        .dropbtn{
+            background-color: aqua;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        .drop-down{
+            position:relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            display:none;
+            position: absolute;
+            background-color: green;
+            min-width: 160px;
+           box-shadow: 0px 8px 16px 0px red;
+            z-index: -1;
+        }
+       .dropdown-content a{
+            /*text-decoration: none;
+            border-color: grey;
+            color: white;
+            padding: 10px;
+            margin: 10px;*/
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover{
+            background-color: #fff;
+        }
+        .drop-down:hover .dropdown-content{
+            background-color: green;
+            color: white;
+            display: block;
+        }
+        .drop-down:hover .dropbtn{
+            background-color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading</h1>
+    <div class="drop-down"> 
+    <button class="dropbtn">Dropdown</button> 
+    <div class="dropdown-content">
+   <a href="#home">home</a>
+   <a href="#page1">page1</a>
+   <a href="#page2">page2</a> 
+   <a href="#page3">page3</a>
+   </div>
+   </div>
+</body>
+</html>

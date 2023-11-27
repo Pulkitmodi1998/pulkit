@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.modi{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    color:white;
+}
+.modi p{
+    width: 100%;
+}
+.modi> div{
+    text-align: center; 
+    background-color:purple;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    line-height: 40px;
+    font-size: 32px;
+}
+h3{
+    font-weight: bold;
+}
+.pulkit{
+    display:flex;
+    background-color:white;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.pulkit> div{
+    width: 800px;
+    height: 1000px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    line-height: 40px;
+}
+@media (max-width: 600px) {
+  .pulkit {
+    flex-direction: column;
+    font-size: 10px;
+  }
+  .pulkit> div{
+    height: auto;
+    width:auto;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+/*
+.pulkit> div{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    line-height: 40px;
+}
+} */
+    </style>
+</head>
+
+<body>
+    <div class="modi">
+        <div>Sample Flexbox example</div>
+    </div>
+    <div class="pulkit">
+        <div >
+            <h3>First heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eveniet esse, molestiae ipsum odit
+                alias nulla iste cum corrupti veniam mollitia adipisci dolores illo voluptatibus necessitatibus aut
+                tempore quibusdam! Ea fuga molestiae voluptatibus rem aliquam impedit libero magni ipsam, in quaerat hic
+                aspernatur beatae non quibusdam inventore vero eligendi totam! Mollitia tempore dolorum tempora sunt
+                excepturi temporibus labore explicabo doloribus iure, voluptate eveniet consectetur at perspiciatis
+                praesentium eos hic maiores adipisci accusamus obcaecati voluptatem quod laudantium enim nobis
+                laboriosam! Pariatur, quidem exercitationem! Suscipit voluptates aut sed quo ducimus tenetur
+                voluptatibus ipsum voluptatem quam ut. Beatae pariatur labore accusantium laudantium facilis!</p>
+        </div>
+        <div >
+            <h3>Second article</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores accusamus, non alias libero
+                temporibus eaque
+                doloribus, natus explicabo, hic nostrum dignissimos dolorum esse dolor odio consequatur consequuntur
+                voluptate quas
+                veritatis molestias velit nam. Quia cum consectetur, ratione veritatis accusantium, recusandae at
+                corrupti rem omnis
+                temporibus quod. Vel quaerat laborum porro suscipit eveniet nulla nisi impedit facere unde assumenda
+                sunt minus
+                nostrum laudantium, debitis officia reiciendis velit ex voluptatum est eius vero. Quos veritatis
+                obcaecati quaerat
+                magni sint eum soluta ipsam corrupti, possimus quae odit ad provident cupiditate accusamus architecto
+                dolorem!
+                Minima alias libero asperiores illo, laboriosam qui ut similique quos?</p>
+        </div>
+        <div >
+            <h3>Third article</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ut cumque quae harum fugit sit nemo nostrum,
+                eius facere asperiores debitis modi qui non atque at dolore illo optio! Esse temporibus, ullam tenetur
+                alias quasi error sed explicabo facere. Dignissimos porro nemo vitae mollitia dicta. Aliquid maxime
+                error ipsum officiis. Eveniet qui eligendi minus et officia quia explicabo ducimus quis rem amet? Harum
+                eos quae, ea minus tenetur aut veritatis, quis quibusdam quod dignissimos sunt fugiat ab nemo sed vel
+                aspernatur sequi fuga distinctio voluptates, minima dolor velit. Omnis, optio reprehenderit! Ab deleniti
+                nobis perspiciatis molestiae dolorum rem beatae aut.</p>
+        </div>
+    </div>
+</body>
+
+</html>

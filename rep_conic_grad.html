@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conic{
+            margin: 10%;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-image:repeating-conic-gradient(red , green , yellow 10%);
+        }
+        .deg{
+            margin: 10%;
+            height: 200px;
+            width: 200px;
+            background-image: repeating-conic-gradient(red 0deg 10deg, green 10deg 20deg, yellow 20deg 30deg);
+            border-radius: 50%;
+        }
+        .conic_grad_pic{
+            margin: 10%;
+            height: 200px;
+            width: 200px;
+            background-image: conic-gradient(red 0deg , red 90deg, green 90deg, green 180deg, yellow 180deg, yellow 270deg, blue 270deg, blue 360deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="conic"></div>
+    <div class="deg"></div>
+    <div class="conic_grad_pic"></div>
+</body>
+</html>

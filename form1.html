@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> 
+    <title>Document</title>
+     <style>
+        body{
+            background-color: grey;
+            box-sizing: border-box;
+            padding: 25px;
+            margin: 55px;
+            
+            font-size: 22px;
+        }
+        div.head{
+            font-style:italic;  
+            color:darkgreen;
+            font-size: 48px;
+            text-align: center;
+        }
+          input[type=text]{
+            display:inline;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            background-color: lightblue;
+            border-bottom: 2px solid red;
+            border-radius: 15px;
+            color: black;
+            font-style: italic;
+            font-style: bold;
+            font-size: 22px;
+          }
+          input[type=password]{
+            width: 100%;
+            display:inline;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+             background-color: lightblue;
+            border-radius: 15px;
+            color: black;
+            font-style: bold;
+            font-size: 22px;
+          }
+          input[type=number]{
+            width: 100%;
+            display:inline;
+            padding: 10px;
+            margin-top: 10px; 
+            margin-bottom: 20px;
+            background-color: lightblue;
+            border-radius: 15px;
+            color: black;
+            font-style: italic;
+            font-style: bold;
+            font-size: 22px;
+          }
+            div.test{
+              text-align: center;
+            }
+
+        input[type=submit],input[type=reset]{
+          color: white;
+            border-radius: 50px;
+            font-size: 22px;
+            padding-left: 15px;
+            padding-right: 20px;
+            padding-top:5px;
+            padding-bottom: 5px;
+            margin: 5px;
+        }
+       
+          
+        
+        </style>
+</head>
+<body>
+
+   <div class="head">
+    <h1><b>form layout</b></h1>
+  </div>
+
+  <br>
+    <form>  
+        <div class="form-group row">    
+         <label for="Name" class=" col-sm-1 col-form-label">Name</label>
+         <div class="col-sm-11">
+        <input type="text" class="form-control" id="Name"   placeholder="Enter your name"><br>
+    </div> 
+</div>
+    <div class="form-group row">
+        <label for="password" class="col-sm-1 col-form-label">password</label>
+        <div class="col-sm-11">
+        <input type="password"  class="form-control" id="password" placeholder="Enter your password"><br>
+      </div>
+    </div>
+    <div class="form-group row">
+        <label for="number"class="col-sm-1 col-form-label">Number</label>
+        <div class="col-sm-11">
+        <input type="number" class="form-control" id="number" placeholder="Enter your Number"><br>
+      </div>
+    </div>
+     
+    <div class="test" >
+       <input type="submit"  value="submit" style="background-color: green;" >
+        
+        <input type="reset" value="reset" style="background-color: red;"  >
+      </div>
+       
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            position: relative;
+            display: inline-block;
+            border: 2px solid green;
+        }
+       .head .Text{
+           
+
+    visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+   bottom: 100%;
+   /* left: 100; */
+   right: 100;
+        }
+        .head:hover .Text{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body style="text-align:center;margin: 25%;">
+<div class="head"> Lorem ipsum  
+     <span class="Text"> ipsam</span>
+         
+</div>
+</body>
+</html>

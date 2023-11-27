@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <title>Document</title>
+    <style>
+        body {
+            font-family: cursive;
+            width: 100%;
+        }
+
+
+        body {
+            width: 100%;
+            background-image: linear-gradient(to bottom,#98A9D7,#8ED2CD,#C2ED98,#F1F487);
+        }
+
+        p {
+            color: white;
+        }
+
+        .main{
+            width: 100%;
+        }
+
+        .A {
+            margin: 10%;
+            margin-bottom: 20px;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        .A img:hover {
+            box-shadow: 10px 10px 10px 10px;
+            color: red;
+        }
+
+        .nav {
+            width: 100%;
+            background-color: black;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: white;
+            margin-right: 20px;
+        }
+
+        a:hover {
+            background-color: black;
+            color: red
+        }
+
+        .btn:hover {
+            color: red;
+            border: 2px solid red;
+            background-color: black;
+        }
+
+        .about {
+            margin-top: 5%;
+            box-sizing: border-box;
+            width: 100%;
+            margin-bottom: 5%;
+        }
+
+        .client {
+            display: inline;
+            margin-top: none;
+            margin-right: 0%;
+        }
+
+        .special {
+            height: 250px;
+            width: fit-content;
+            margin-top: 100px;
+            background-color: rgb(255, 208, 1);
+            text-align: center;
+            margin-left: 450px;
+            color: red;
+        }
+
+        .special:hover {
+            box-shadow: 10px 10px black;
+        }
+        /* For smaller devices */
+@media (max-width: 600px) {
+    body{
+        text-align: center;
+    }
+    .A {
+        margin: 5%;
+    }
+
+    .special {
+        margin: none;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .image{
+        text-align: center;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+    .client{
+        text-align: center;
+    }
+    /* Adjust other styles as needed for smaller screens */
+}
+
+/* For medium-sized devices */
+@media (min-width: 600px) and (max-width: 900px) {
+    .A {
+        margin: 7%;
+    }
+
+    .special {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .image{
+        text-align: center;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+    /* Adjust other styles for medium-sized screens */
+}
+
+/* For larger devices */
+@media (min-width: 900px) {
+    .A {
+        margin: 10%;
+    }
+
+    .special {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .image{
+        text-align: center;
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+
+
+    /* Adjust other styles for larger screens */
+}
+
+      
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="www.pulkitmodi1998@gmail.com">pulkitmodi1998@</a>
+                    </div>
+                    <div class="col-sm">
+                        <img  class="image" src="image/profile.png">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="nav1">
+                        <a href="#projects">projects</a>
+                        <a href="#journey">journey</a>
+                        <a href="#services">services</a>
+                        <a href="#contact">contact</a>
+                    </div></div>
+                </div>
+            </div>
+        </div>
+        <div class="A">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                       <img class="pulkit" src="image/pulkit.png" 
+                            style="border:2px solid transparent;border-radius: 10%;width:200px;">
+                    </div>
+                    <div class="col-sm">
+                        <h1>An Interactive Designer</h1>
+                        <p>I am a friendly and creative individual with a passion for technology and a love for helping
+                            others. I enjoy
+                            problem-solving, writing, and learning new things every day."</p>
+
+                        <button class="bttn"
+                            style="background-color:orangered;color: white;border: 2px solid black;">Book a
+                            call</button>
+                        <button class="btn">My works</button><br><br> 
+                        <h3 style="color: red;"> Follow me</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="client">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <h3>-Meet my <br>recent clients</h3>
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="image/security.png">
+                        <p style="display: inline;margin-bottom: 10px;">security</p><br>
+                        <img src="image/youtube.png">
+                        <p style="display: inline;">youtube</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="image/telegram.png">
+                        <p style="display: inline;margin-bottom: 10px;">telegram</p><br>
+                        <img src="image/adobe.png">
+                        <p style="display: inline;">adobe</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="image/telephone.png">
+                        <p style="display: inline;margin-bottom: 10px;">Telephone</p><br>
+                        <img src="image/facebook.png">
+                        <p style="display: inline;">facebook</p>
+                    </div>
+                    <div class="col-sm-2">
+                        <img src="image/vimeo.png">
+                        <p style="display: inline;margin-bottom: 10px;">vimeo</p><br>
+                        <img src="image/linkedin.png">
+                        <p style="display: inline;">Linkedin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="special">
+        <h2>Specialities</h2>
+        <p style="color: black;margin: 10px;margin-top:30px;">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.<br>
+            Fugit repudiandae quibusdam eum quam aliquid facilis esse<br>
+            laudantium qui at doloremque.</p>
+    </div>
+
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm" style="background-color:#FFD700;margin:10px;">
+                    <h3>Technology Knowledge</h3>
+                    <p style="color:orangered;"> Web-Technology<br>languages c, c++, java programing<br>Web-designer and
+                        delvelopment- Html, css, Java script, Python<br>Database- Mysql<br></p>
+                </div>
+
+                <div class="col-sm" style="background-color:#FFD700;margin:10px;">
+                    <h3>projects</h3>
+                    <p style="color:orangered;"> Bca.final- project name: Get online admission form management and
+                        college details using sql server</p>
+                    <p style="color:orangered;">Mca.final- project name: library management system using phpmysql</p>
+                </div>
+
+                <div class="col-sm" style="background-color:#FFD700;margin:10px;">
+                    <h3>Academic Knowledge</h3>
+                    <p style="color:orangered;"> Class-10th Rbse board(Govt. sec.secondary school Bhadesar)<br>
+                        Class-12th Rbse board(Govt. sec. secondary school Bhadesar)<br>
+                        class-Gra
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" style="text-align:center;background-color:black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="image/chess.jpg" height="150" ,width="200" style="margin-top:10%">
+                </div>
+                <div class="col-sm">
+                    <h2 style="margin-top:50px;color: cadetblue;">About Us</h2>
+                    <p>Mobile No.-7062909813</p>
+                    <p>Email-id- pulkitmodi1998@gmail.com</p>
+                    <p>Narby samta bhawan, Bhadesar<br>Dist.chittorgarh</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

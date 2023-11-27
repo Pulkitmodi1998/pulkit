@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-image: url(image/flower.gif), url(image/flower.gif), url(image/wallpaper.jpg);
+      background-position: left bottom, right top, left top;
+      background-repeat: no-repeat, no-repeat, repeat;
+      padding: 45px;
+    }
+
+    .old {
+      border: 20px solid transparent;
+      border-image: url(image/border-image.png)30% round;
+      padding: 10px;
+      border-image-repeat: 10px;
+
+    }
+
+
+    .old {
+      border: 20px solid transparent;
+      border-image: url(image/border-image.png)30% round;
+      padding: 10px;
+      border-image-repeat: 10px;
+    }
+
+    .new {
+      border: 20px solid transparent;
+      border-image: url(image/border-image.png)30 round;
+      padding: 10px;
+      border-image-outset: 20px;
+    }
+
+    .home {
+      border: 20px solid transparent;
+      border-image: url(image/border-image.png)30 repeat;
+      padding: 10px;
+      border-image-source: -moz-element();
+    }
+
+    .design {
+      border: 20px solid transparent;
+      border-image: url(image/border-image.png)30 stretch;
+      padding: 10px;
+      border-image-slice: fill;
+    }
+
+    .demo {
+      border: 20px solid transparent;
+      border-image: url(image/border-image.png)30 space;
+      padding: 10px;
+      border-image-width: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <p class="old">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+    Maxime error quidem commodi adipisci voluptate, earum perferendis voluptatem consectetur.<br>
+    Beatae veritatis labore eligendi adipisci saepe harum dolorem modi praesentium eos reiciendis?</p>
+  <br>
+  <p class="new">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+    Quaerat quisquam illo nobis aut qui sunt hic modi magni. Pariatur, necessitatibus!</p>
+  <br>
+  <div class="home">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+      Dicta similique rem eligendi natus pariatur quisquam aliquam dolore necessitatibus quasi alias!</p>
+  </div>
+  <br>
+  <div class="design">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+      Quae est magnam impedit commodi, quo quam qui fugiat placeat molestias minima!</p>
+  </div><br>
+  <div class="demo">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+      Fuga commodi quaerat velit explicabo, ipsa quo mollitia inventore fugit enim ea?</p>
+  </div>
+</body>
+
+</html>

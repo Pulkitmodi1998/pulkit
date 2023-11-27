@@ -1,0 +1,154 @@
+body{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10px;
+    background-color:grey;
+    font-family:Poppins;
+}
+div.form{
+    margin: 10%;
+    margin-top: 5px;
+}
+h1{
+    padding:75px ;
+    margin:5px;
+    background-color: black;
+    color:white;
+}
+h2{
+    margin: 5%;
+}
+h3{
+    color: chartreuse;
+}
+h3:hover{
+    color:#FF2903;
+}
+div.nav{
+    width: 100%;
+    text-decoration: none;
+     background-color:blue;
+     display:inline-block ;
+     padding: 15px;
+     margin: 5px;
+     font-size: 22px;
+     text-align: center;
+}
+a{
+    color:chocolate;
+    margin-right: 5%;
+}
+ a:hover{
+    border: 2px solid black;
+    color:white;
+    background-color:#4F54BB;
+    padding: 10px;
+    
+ }
+ input[type=text]:hover{
+    background-color: #FF7604;
+    color:black;
+ }
+ input[type=number]:hover{
+    background-color: #FF7604;
+    color:black;
+ }
+ input[type=address]:hover{
+    background-color: #ff7604;
+    color:black;
+ }
+ input[type=password]:hover{
+    background-color: #ff7604;
+    color: black;
+ }
+input[type=text]{
+width: 100%;
+background-color:rgba(8, 5, 69, 0.842);
+color: white;
+border: 1px solid rgb(60, 2, 2);
+padding: 10px;
+margin: 15px;
+margin-left: 130px;
+/*margin-bottom: none;
+margin-top: none;*/
+}  
+input[type=number]{
+width: 100%;
+background-color:rgba(8, 5, 69, 0.842);
+color: white;
+border: 1px solid rgb(60, 2, 2);
+padding: 10px;
+margin-left: 130px;
+ /*margin-right: 450px;
+margin-left: 100px;*/
+}
+input[type=password]{
+width: 100%;
+display: inline;
+background-color:rgba(8, 5, 69, 0.842);
+color: white;
+border: 1px solid rgb(60, 2, 2);
+/*padding: 5px;*/
+text-align: center;
+
+}
+input[type=address]{
+width: 100%;
+display: inline-block;
+background-color:rgba(8, 5, 69, 0.842) ;
+color: white;
+border: 1px solid rgb(60, 2, 2);
+/*padding: 10px;
+margin-top: 5px;
+margin-left: 150px; */
+text-align: center;
+}  
+
+input[type=submit]{
+background-color: green;
+float: left;
+margin-left:5px;
+padding: 10px;
+color: white;
+}
+input:hover[type=submit]
+{
+    background-color: #ff0000;
+    color: white;
+}
+input[type=reset]{
+background-color: red;
+float: right;
+margin-right: 5px;
+padding: 10px;
+color: white;
+}
+input:hover[type=reset]
+{
+    background-color:green;
+    color: white;
+}
+input[type=button]{
+width: 100%;
+background-color: slateblue;
+color: black;
+padding: 15px;
+margin-top: 10px;
+margin-bottom: none;
+font-size: 16px;
+border: 2px solid blue;
+}
+input[type=button]:hover{
+    background-color:rgb(250, 117, 0);
+    color: white;
+}
+div.footer{
+    margin: none;
+border: 1px solid rgba(8, 5, 69, 0.842) ;
+/*border-collapse: collapse;*/
+background-color: rgba(8, 5, 69, 0.842);
+color: white;
+text-align: center;
+font-size: 22px;
+}
